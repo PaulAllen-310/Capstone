@@ -7,6 +7,7 @@ var Config = async function (accounts) {
     return {
         owner: owner,
         erc721Mintable: erc721Mintable,
+        noOfTokensToMint: 10,
     };
 };
 
